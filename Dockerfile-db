@@ -1,2 +1,2 @@
-FROM postgres:alpine
+FROM postgres:18.1-alpine3.23
 COPY infrastructure/database/init.sql /docker-entrypoint-initdb.d/
